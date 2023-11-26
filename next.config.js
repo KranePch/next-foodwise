@@ -3,6 +3,9 @@ const nextConfig = {
     experimental: {
         serverActions: true,
         serverComponentsExternalPackages: ['mongoose']
+    },
+    images: {
+        domains: ['images.openfoodfacts.org']
     }
 }
 
