@@ -1,27 +1,17 @@
 export type PriceHistoryItem = {
-    price: number;
-  };
-  
-  export type User = {
-    email: string;
-  };
-  
-  export type Product = {
-    _id?: string;
-    url: string;
-    foodName: string;
-    quantity: string;
-    image: string;
-    categoriesArray: string[] | [];
-    gradeNutrition: string;
-  };
-  
-  export type EmailContent = {
-    subject: string;
-    body: string;
-  };
-  
-  export type EmailProductInfo = {
-    title: string;
-    url: string;
-  };
+  price: number;
+};
+
+export type User = {
+  email: string;
+};
+
+export type Product = {
+  _id?: string;
+  url: string;
+  foodName: string;
+  quantity: string;
+  image: string;
+  categoriesArray: string[] | [];
+  gradeNutrition: string;
+};

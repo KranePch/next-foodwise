@@ -14,8 +14,8 @@ const ProductCard = ({ product }: Props) => {
         <Image 
         src={product.image} 
         alt={product.foodName}
-        width={200}
-        height={200}
+        width={500}
+        height={500}
         className='product-card_image'
         />
       </div>

@@ -1,17 +1,30 @@
 import { getProductById } from "@/lib/actions"
 import { redirect } from "next/navigation";
+import Image from "next/image"
 
 type Props = {
-  params: {id: string}
+  params: { id: string }
 }
 
-const ProductDetails = async ({ params: {id} }: Props) => {
+const ProductDetails = async ({ params: { id } }: Props) => {
   const product = await getProductById(id);
-  
+
   if (!product) redirect('/');
 
   return (
-    <div>{id}</div>
+    <div className="product-container">
+      <div className="flex gap-28 xl:flex-row flex-col">
+        <div className="product-image">
+          <Image
+            src={product.image}
+            alt={product.foodName}
+            width={580}
+            height={400}
+            className="mx-auto"
+          />
+        </div>
+      </div>
+    </div>
   )
 }
 
