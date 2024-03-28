@@ -20,9 +20,3 @@ This project aims to:
 Enhance my skills in NextJS for full-stack development, Python for backend logic and Machine Learning, and MongoDB for database management.
 Provide a novel approach to food recommendations, making dietary choices more personalized and data-driven.
 Showcase the integration of Machine Learning with web technologies to create innovative solutions for everyday challenges.
-
-# Deployment
-Experience FoodWise live at: `https://next-foodwise-k6nwgah2r-kranepchs-projects.vercel.app/`
-
-# Development Status
-This project is currently under development, with ongoing efforts to refine the recommendation engine, enhance the user interface for a richer user experience.
